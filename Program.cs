@@ -1,7 +1,14 @@
 ﻿using OpenAI_API.Completions;
 using OpenAI_API.Models;
 
-var api = new OpenAI_API.OpenAIAPI("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");
+
+
+Console.Write("Welcome!\nI need the security key that my creator sent you.\n\nEnter Here: ");
+
+var key = Console.ReadLine();
+
+var api = new OpenAI_API.OpenAIAPI(key);
+
 
 
 while (true)
