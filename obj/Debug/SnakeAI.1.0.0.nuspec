@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SnakeAI</id>
+    <version>1.0.0</version>
+    <authors>SnakeAI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="OpenAI" version="1.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\PROGRAMAÇÃO\PROJETOS\SnakeAI\bin\Debug\net7.0\SnakeAI.runtimeconfig.json" target="lib\net7.0\SnakeAI.runtimeconfig.json" />
+    <file src="D:\PROGRAMAÇÃO\PROJETOS\SnakeAI\bin\Debug\net7.0\SnakeAI.dll" target="lib\net7.0\SnakeAI.dll" />
+  </files>
+</package>
